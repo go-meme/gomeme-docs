@@ -32,17 +32,20 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.path
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - toc.follow
-    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
 
   icon:
     repo: fontawesome/brands/github
@@ -54,6 +57,31 @@ theme:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: vi
+          name: Tiếng Việt
+          build: true
+          nav_translations:
+            Home: Trang chủ
+            Getting Started: Bắt đầu
+            Overview: Tổng quan
+            Instructions Reference: Tham chiếu lệnh
+            Core Concepts: Khái niệm cốt lõi
+            State Accounts: Tài khoản trạng thái
+            Bonding Curve Math: Toán học đường cong
+            Fee System: Hệ thống phí
+            Guides: Hướng dẫn
+            Workflows: Quy trình
+            Migration: Di chuyển
   - minify:
       minify_html: true
 
@@ -99,6 +127,14 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/go-meme
@@ -118,7 +154,9 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: README.md
+  - Home:
+    - Welcome: README.md
+    - Setup Guide: SETUP.md
   - Getting Started:
     - Overview: 00-overview.md
     - Instructions Reference: 01-instructions.md
@@ -127,7 +165,7 @@ nav:
     - Bonding Curve Math: 03-bonding-curve-math.md
     - Fee System: 04-fee-system.md
   - Guides:
-    - Workflows: 05-workflows.md
-    - Migration: 06-migration.md
+    - Workflows & Examples: 05-workflows.md
+    - Migration System: 06-migration.md
 
 copyright: Copyright &copy; 2025 Go Meme

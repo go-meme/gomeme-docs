@@ -6,6 +6,54 @@
   --md-primary-fg-color--dark: #4338ca;
 }
 
+/* Navigation sidebar */
+.md-sidebar {
+  width: 15rem;
+}
+
+.md-sidebar--primary {
+  left: 0;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 15rem;
+  }
+}
+
+/* Navigation items */
+.md-nav__item {
+  padding: 0.2rem 0;
+}
+
+.md-nav__link {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.2rem;
+  transition: background-color 0.2s;
+}
+
+.md-nav__link:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-nav__link--active {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Navigation sections */
+.md-nav__title {
+  font-weight: 700;
+  padding: 0.8rem 0.8rem 0.4rem;
+}
+
+/* Language selector */
+.md-select {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
 /* Code blocks */
 .md-typeset code {
   border-radius: 0.2rem;
@@ -43,4 +91,19 @@
   padding: 1rem;
   border-radius: 0.2rem;
   overflow-x: auto;
+}
+
+/* Table of contents on right */
+.md-sidebar--secondary {
+  order: 2;
+}
+
+/* Improve spacing for nested nav items */
+.md-nav__item .md-nav__item {
+  margin-left: 0.8rem;
+}
+
+/* Language switcher in header */
+.md-header__option {
+  padding: 0.2rem 0.5rem;
 }
