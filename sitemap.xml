@@ -15,13 +15,6 @@
         <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/00-overview/"/>
     </url>
     <url>
-        <loc>https://docs.go.meme/00-overview.vi/</loc>
-        <lastmod>2025-10-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/00-overview.vi/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/00-overview.vi/"/>
-    </url>
-    <url>
         <loc>https://docs.go.meme/01-instructions/</loc>
         <lastmod>2025-10-23</lastmod>
         <changefreq>daily</changefreq>
@@ -64,13 +57,6 @@
         <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/06-migration/"/>
     </url>
     <url>
-        <loc>https://docs.go.meme/README.vi/</loc>
-        <lastmod>2025-10-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/README.vi/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/README.vi/"/>
-    </url>
-    <url>
         <loc>https://docs.go.meme/SETUP/</loc>
         <lastmod>2025-10-23</lastmod>
         <changefreq>daily</changefreq>
@@ -90,13 +76,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/00-overview/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/00-overview/"/>
-    </url>
-    <url>
-        <loc>https://docs.go.meme/vi/00-overview.vi/</loc>
-        <lastmod>2025-10-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/00-overview.vi/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/00-overview.vi/"/>
     </url>
     <url>
         <loc>https://docs.go.meme/vi/01-instructions/</loc>
@@ -139,13 +118,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/06-migration/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/06-migration/"/>
-    </url>
-    <url>
-        <loc>https://docs.go.meme/vi/README.vi/</loc>
-        <lastmod>2025-10-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://docs.go.meme/vi/README.vi/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.go.meme/README.vi/"/>
     </url>
     <url>
         <loc>https://docs.go.meme/vi/SETUP/</loc>
