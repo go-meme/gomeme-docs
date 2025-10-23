@@ -5,6 +5,9 @@ site_author: Go Meme Team
 repo_url: https://github.com/go-meme/gomeme-docs
 repo_name: go-meme/gomeme-docs
 
+# Tell MkDocs that markdown files are in the root directory
+docs_dir: .
+
 theme:
   name: material
   palette:
