@@ -1,0 +1,46 @@
+/* Custom styling for Go Meme documentation */
+
+:root {
+  --md-primary-fg-color: #4f46e5;
+  --md-primary-fg-color--light: #6366f1;
+  --md-primary-fg-color--dark: #4338ca;
+}
+
+/* Code blocks */
+.md-typeset code {
+  border-radius: 0.2rem;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+  border-radius: 0.2rem;
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color--light);
+}
+
+/* Logo sizing */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.5rem;
+}
+
+/* Custom diagram styling */
+.diagram {
+  background-color: var(--md-code-bg-color);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  overflow-x: auto;
+}
