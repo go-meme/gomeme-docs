@@ -55,7 +55,7 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - i18n:
-      docs_structure: folder
+      docs_structure: suffix
       fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: true
@@ -67,8 +67,11 @@ plugins:
         - locale: vi
           name: Tiếng Việt
           build: true
+          site_name: "Go Meme - Tài liệu Dynamic Bonding Curve"
           nav_translations:
             Home: Trang chủ
+            Welcome: Chào mừng
+            Setup Guide: Hướng dẫn cài đặt
             Getting Started: Bắt đầu
             Overview: Tổng quan
             Instructions Reference: Tham chiếu lệnh
@@ -77,8 +80,8 @@ plugins:
             Bonding Curve Math: Toán học đường cong
             Fee System: Hệ thống phí
             Guides: Hướng dẫn
-            Workflows: Quy trình
-            Migration: Di chuyển
+            "Workflows & Examples": "Quy trình & Ví dụ"
+            Migration System: Hệ thống di chuyển
   - minify:
       minify_html: true
 
